@@ -207,9 +207,10 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 160px;
+   height: 160px;
    border-radius: 100%;
+   background-size: cover;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -1009,3 +1010,47 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+.Blog-item{
+   margin:20px;
+   padding:10px;
+}
+.Blog-item .item-wrap{
+   background: #fff;
+   overflow: hidden;
+   position: relative;
+   display:flex;
+   justify-content:center;
+   padding:10px;
+
+
+   -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.Blog-item .item-wrap a {
+   border-radius: 15px ;
+   padding:10px;
+   border: 2px solid gray;
+   cursor: pointer;
+   color:white;
+   align-items:center;
+   background-color: black;
+}
+
+#Blog {
+   background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 60px;
+}
+#Blog h1 {
+   font: 15px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: rgb(83, 73, 73);
+}

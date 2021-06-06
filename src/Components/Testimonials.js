@@ -2,35 +2,38 @@ import React from "react";
 
 const Testimonials = ({ data }) => {
   if (data) {
-    var testimonials = data.testimonials.map(function (testimonials) {
+    //console.log(data);
+    var projects = data.Blogs.map(function (Blogs) {
       return (
-        <li key={testimonials.user}>
-          <blockquote>
-            <p>{testimonials.text}</p>
-            <cite>{testimonials.user}</cite>
-          </blockquote>
-        </li>
+        <div key={Blogs.title} className="row Blog-item">
+          <div className="item-wrap">
+            <h5>{Blogs.title}</h5>
+          </div>
+          <div className="item-wrap">
+          <a href={Blogs.url} title={Blogs.url}>Let's read it</a>
+          </div>
+        </div>
       );
     });
   }
 
   return (
-    <section id="testimonials">
-      <div className="text-container">
-        <div className="row">
-          <div className="two columns header-col">
-            <h1>
-              <span>Client Testimonials</span>
-            </h1>
-          </div>
+    <section id="Blog">
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <h1>Check Out Some of My Blogs.</h1>
 
-          <div className="ten columns flex-container">
-            <ul className="slides">{testimonials}</ul>
+          <div
+            id="portfolio-wrapper"
+            className="bgrid-quarters s-bgrid-thirds cf"
+          >
+            {projects}
           </div>
         </div>
       </div>
     </section>
   );
 };
+
 
 export default Testimonials;
