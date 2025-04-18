@@ -1,21 +1,21 @@
 {
   "main": {
     "name": "Keshav Gupta",
-    "occupation": "Frontend Developer",
+    "occupation": "FullStack Developer",
     "description": "I eat, sleep and breathe code",
     "image": "profilepic.jpg",
     "bio": "Hi there! I am Keshav! I’m a software developer interested in developing software that will change people's lives.  I have good problem solving skills. I’m interested in debugging and building things. Enjoy contributing in to opensource Interested in connecting with People all Around the world. Mentoring Freshminds, Promote womens to Participate in Tech",
     "contactmessage": "Get in touch with me",
     "email": "keshavgupta9906@gmail.com",
-    "phone": "+919906314957",
+    "phone": "+91637201866",
     "address": {
       "street": "Umrain",
       "city": "Auraiya",
       "state": "Uttar Pradesh",
-      "zip": ""
+      "zip": "206252"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "https://docs.google.com/document/d/1_U0sqIMk9FvTAvKsPfYu6frcFZ4aRLd8ewDazqd3k8o/edit?usp=sharing",
+    "website": "",
+    "resumedownload": "https://www.canva.com/design/DAGGUPcipuk/9io4FYGDmPmuOXmLwCzKyw/edit?utm_content=DAGGUPcipuk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     "social": [
       {
         "name": "twitter",
@@ -56,31 +56,50 @@
     ],
     "work": [
       {
-        "company": "Flydex Automobile Company",
-        "title": " Remote Frontend Developer",
-        "years": "Sep 2019 - Nov 2019",
-        "description": "I'm working in a company as a frontend devloper where I'm using the technolgy react and material ui"
+        "company": "Clarivate",
+        "title": "Senior Software Engineer",
+        "years": "Jan 2025 - Present",
+        "description": "I'm working in a company as a Senior Software Engineer where I'm using the NestJS, Postgres, AWS, Docker"
+      },
+      {
+        "company": "Jarvis technology and Strategy Consulting",
+        "title": "SDE-1",
+        "years": "Oct 2021 - Jan 2025",
+        "description": "I'm working in a company as a SDE-1 where I'm using the Node, express, React, Postgres, Ruby on rails, Jobs, AWS, Docker"
       }
+
     ],
     "skills": [
       {
-        "name": "ReactJs",
+        "name": "NodeJs",
+        "level": "90%"
+      },
+      {
+        "name": "NestJS",
         "level": "80%"
       },
       {
-        "name": "Redux",
-        "level": "70%"
-      },
-      {
-        "name": "HTML, CSS & Javascript",
-        "level": "70%"
-      },
-      {
-        "name": "Firebase",
+        "name": "Postgres",
         "level": "80%"
       },
       {
-        "name": "Responsive Web Design",
+        "name": "Ruby on rails",
+        "level": "80%"
+      },
+      {
+        "name": "Express",
+        "level": "90%"
+      },
+      {
+        "name": "React",
+        "level": "90%"
+      },
+      {
+        "name": "Mongodb",
+        "level": "90%"
+      },
+      {
+        "name": "AWS",
         "level": "90%"
       },
       {
@@ -91,35 +110,35 @@
   },
   "portfolio": {
     "projects": [
-      {
-        "title": "Amazon Clone (React JS)",
-        "category": "",
-        "image": "https://www.versionmuseum.com/images/websites/amazon-website/amazon-website%5E2019%5Ehomepage-august.jpg",
-        "url": "https://amazon-clone-app4.netlify.app/",
-        "code": "https://github.com/keshavg2/Amazon-clone"
-      },
-      {
-        "title": "Google Clone (React JS)",
-        "category": "",
-        "image": "https://cdn.searchenginejournal.com/wp-content/uploads/2020/05/reverse-image-search-your-complete-guide-5ef5f5435f949.png",
-        "url": "https://clone-8ad77.web.app/",
-        "code": "https://github.com/keshavg2/Google_clone"
-      },
-      {
-        "title": "Movies app()",
-        "category": "",
-        "image": "https://camo.githubusercontent.com/4202a0a38c0521f4dd1df34066291eb34d519b3cf1ac0a2060cc175a5bd43bc3/687474703a2f2f662e636c2e6c792f6974656d732f3064327233483435303033693067307a316531342f53637265656e25323053686f74253230323031352d30332d3134253230617425323031362e34392e34302e706e67",
-        "url": "https://movies-site-name.netlify.app/",
-        "code": "https://github.com/keshavg2/movies_app"
-      },
-      {
-        "title": "Quiz app()",
-        "category": "",
-        "image": "https://i.ytimg.com/vi/2i2-LTJ5nF4/maxresdefault.jpg",
-        "url": "https://agitated-gates-cfa222.netlify.app/",
-        "code": "https://github.com/keshavg2/Quiz-app"
-      }
-    ],
+  {
+    "title": "Ecommerce Website",
+    "category": "Online Store",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://theshoperschoice.com/",
+    "code": "https://github.com/keshavg2/"
+  },
+  {
+    "title": "Ecommerce Website for a client",
+    "category": "Client Project",
+    "image": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
+    "url": "https://efckart.com",
+    "code": "https://github.com/keshavg2/"
+  },
+  {
+    "title": "Political party Project",
+    "category": "Political CRM",
+    "image": "https://cdn.pixabay.com/photo/2018/08/04/11/30/draw-3583548_1280.png",
+    "url": "https://zila-staging.ccdms.in/",
+    "code": "https://github.com/keshavg2/"
+  },
+  {
+    "title": "Quiz App",
+    "category": "Educational App",
+    "image": "https://i.ytimg.com/vi/2i2-LTJ5nF4/maxresdefault.jpg",
+    "url": "https://agitated-gates-cfa222.netlify.app/",
+    "code": "https://github.com/keshavg2/Quiz-app"
+  }
+],
     "Blogs":[
       {
         "title":"Let’s deep dive into React Hooks!",
